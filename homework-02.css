@@ -1,20 +1,29 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: aliceblue;
+
+
 }
 
+body {
+    background-image: url(https://img.freepik.com/free-photo/black-rectangular-mockups-dark-concrete-background-design-elements-portfolio-copy-space_76255-1502.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    /* height: 150vh; */
+    background-size: 1050px;
+    background-repeat: no-repeat;
+}
 
 
 /* header details */
 .header {
-    height: 100px;
-    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, black, grey);
     padding: 20px;
-    margin-bottom: 20px;
-    background-color: navy;
-    color: black;
-    border: 1px solid yellow;
+    margin-bottom: 30px;
+    /* background-color: black; */
+    color: antiquewhite;
+    /* border: 1px solid yellow; */
 }
 
 /* shows name */
@@ -23,7 +32,8 @@
     font-size: 55px;
     height: 50px;
     padding-left: 25px;
-    padding-top: 65px;
+    padding-top: 5px;
+    border: 1px solid red;
 }
 
 /* this edits the ul list in the header */
@@ -32,13 +42,12 @@
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid red;
-    height: 65px;
+    height: 40px;
     width: 400px;
     float: right;
-    padding-top: 0px;
+    /* padding-top: 20px; */
     margin-right: 0px;
     font-size: 25px;
-    padding: -5px;
     text-decoration: underline;
     list-style: none;
     cursor: pointer;
@@ -64,11 +73,11 @@ header ul:active {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1140px;
+
     padding: 25px;
     height: 150px;
     margin-bottom: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* "about me" */
@@ -78,21 +87,23 @@ header ul:active {
     font-size: 30px;
     padding-top: 50px;
     text-align: center;
-    border: 1px solid yellow;
+    color: antiquewhite;
+    border-right: 5px solid black;
 }
 
 .aboutme p {
     font-size: 20px;
     width: 50%;
     text-align: center;
-    border: 1px solid yellow;
+    color: antiquewhite;
+    /* border: 1px solid yellow; */
     padding-top: 15px;
 }
 
 /* work section */
 .work {
-    border: 1px solid black;
-    width: 100%;
+    border: 1px solid yellow;
+
     padding: 100px;
     height: 400px;
     margin-bottom: 10px;
@@ -106,8 +117,15 @@ header ul:active {
     width: 150px;
     font-size: 30px;
     margin-right: 775px;
-    border: 1px solid yellow;
+    color: antiquewhite;
+    border-right: 5px solid black;
     text-align: center;
+}
+
+.work p {
+    border: 1px solid yellow;
+    width: 100px;
+    height: 400px;
 }
 
 #javascript {
@@ -193,11 +211,15 @@ header ul:active {
 
 footer {
     text-align: center;
-    height: 50px;
-    width: 1140px;
-    padding-top: 100px;
+    height: 95px;
+    background-image: linear-gradient(to top, black, grey);
+    /* background-color: black; */
+    color: antiquewhite;
+    padding-bottom: 5px;
+    padding-top: 5px;
     letter-spacing: 1px;
-    border: 1px solid black;
+    /* border: 1px solid yellow; */
+    position: relative;
 }
 
 @media screen and (max-width: 768px) {
