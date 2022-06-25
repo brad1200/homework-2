@@ -22,9 +22,9 @@ body {
     background-image: linear-gradient(to bottom, black, grey);
     padding: 20px;
     margin-bottom: 30px;
-    /* background-color: black; */
     color: antiquewhite;
     /* border: 1px solid yellow; */
+    align-items: flex-end;
 }
 
 /* shows name */
@@ -34,7 +34,7 @@ body {
     height: 50px;
     padding-left: 25px;
     padding-top: 5px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* this edits the ul list in the header */
@@ -42,11 +42,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red;
-    height: 40px;
-    width: 400px;
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 300px;
     float: right;
-    /* padding-top: 20px; */
+    padding-top: 30px;
     margin-right: 0px;
     font-size: 25px;
     text-decoration: underline;
@@ -59,14 +59,14 @@ header ul:hover {
 }
 
 header ul:active {
-    background-color: yellow;
+    color: black;
 }
 
 .header div ul li {
 
-    display: inline-block;
+    /* display: inline-block;
     margin-left: 25px;
-    text-decoration: underline;
+    text-decoration: underline; */
 }
 
 /* about me section */
@@ -102,8 +102,8 @@ header ul:active {
 
 /* work section */
 .work {
-    /* border: 1px solid yellow;
-    display: flex;
+    border: 1px solid yellow;
+    /* display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -164,13 +164,18 @@ header ul:active {
 
 footer {
     text-align: center;
-    height: 2.5rem;
+    height: 3.5rem;
     background-image: linear-gradient(to top, black, grey);
     position: absolute;
     width: 100%;
     bottom: 0;
     letter-spacing: 1px;
     border: 1px solid yellow;
+}
+
+footer h2 {
+    text-align: left;
+    color: antiquewhite;
 }
 
 @media screen and (max-width: 1024px) {}
