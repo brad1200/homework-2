@@ -166,7 +166,7 @@ footer {
     text-align: center;
     height: 3.5rem;
     background-image: linear-gradient(to top, black, grey);
-    position: absolute;
+    /* position: fixed; */
     width: 100%;
     bottom: 0;
     letter-spacing: 1px;
