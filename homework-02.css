@@ -7,10 +7,11 @@
 
 body {
     background-image: url(https://img.freepik.com/free-photo/black-rectangular-mockups-dark-concrete-background-design-elements-portfolio-copy-space_76255-1502.jpg);
-    background-position-x: center;
-    background-position-y: center;
-    /* height: 150vh; */
-    background-size: 1050px;
+    /* background-position-x: center;
+    background-position-y: center; */
+    height: max-content;
+
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -101,16 +102,17 @@ header ul:active {
 
 /* work section */
 .work {
-    border: 1px solid yellow;
-    padding: 100px;
-    height: 400px;
-    margin-bottom: 10px;
+    /* border: 1px solid yellow;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: baseline;
-    gap: 10px;
+    align-items: center;
+    align-content: space-around;
+    gap: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .work h2 {
@@ -125,90 +127,35 @@ header ul:active {
 
 .flexitemlarge {
 
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: stretch;
-    align-content: ;
+    align-content: ; */
     border: 1px solid red;
+    /* flex: 2 1 25%; */
 }
 
 .flexitemlarge img {
-    flex-grow: 2;
+    flex: 2 1 25%;
 }
 
 .flexitem {
-    border: 1px solid red;
-    display: flex;
+    /*display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: flex-end;
     align-content: center;
+    flex: 1 1 50%; */
+    flex: 1 1 33.33%;
+
 }
 
 .flexitem img {
-    height: 100px;
-    width: 100px;
-}
+    height: 200px;
+    width: 200px;
 
-#javascript img {
-    display: block;
-    height: 300px;
-    width: 300px;
-    margin: auto;
-    flex-grow: 2;
-}
-
-/* #css {
-    height: 250px;
-    width: 250px;
-    background-color: blue;
-    text-align: center;
-} */
-
-#css img {
-    height: 250px;
-    width: 250px;
-}
-
-#html {
-    height: 250px;
-    width: 250px;
-    background-color: blue;
-    text-align: center;
-
-}
-
-#html img {
-    height: 250px;
-    width: 250px;
-    border: 1px solid red;
-}
-
-#code {
-    height: 250px;
-    width: 250px;
-    background-color: blue;
-    text-align: center;
-}
-
-#code img {
-    height: 250px;
-    width: 250px;
-}
-
-#computer {
-    height: 250px;
-    width: 250px;
-    background-color: blue;
-    text-align: center;
-
-}
-
-#computer img {
-    height: 250px;
-    width: 250px;
 }
 
 .h2 {
@@ -217,17 +164,17 @@ header ul:active {
 
 footer {
     text-align: center;
-    height: 95px;
+    height: 2.5rem;
     background-image: linear-gradient(to top, black, grey);
-    /* background-color: black; */
-    color: antiquewhite;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     letter-spacing: 1px;
-    /* border: 1px solid yellow; */
-    position: relative;
+    border: 1px solid yellow;
 }
 
-@media screen and (max-width: 768px) {
-    background-color: red;
-}
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 425px) {}
