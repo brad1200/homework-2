@@ -115,7 +115,7 @@ header ul:active {
 }
 
 /* the text box for the word describing the image/project */
-.container {
+.text {
     padding: 2px;
     background-color: white;
     width: auto;
@@ -126,7 +126,7 @@ header ul:active {
     font-size: 15px;
 }
 
-
+/* how the footer lines up with page */
 footer {
     text-align: center;
     height: 3.5rem;
@@ -142,6 +142,8 @@ footer h2 {
     text-decoration: underline;
     text-decoration-color: black;
 }
+
+@media screen and (max-width: 1440px) {}
 
 @media screen and (max-width: 1024px) {}
 
