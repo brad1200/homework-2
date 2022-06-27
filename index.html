@@ -4,137 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="homework-02.css">
-    <title> Personal Profolio </title>
+    <title> Brad Carlson Profolio </title>
 </head>
 
 <body>
+
+    <!-- top of page, shows name and parts included in list of whats on the page -->
     <header class="header">
+
         <h1>Brad Carlson</h1>
+
         <ul>
             <li><a href="About Me"></a> About Me </li>
-            <li> <a href="Work"></a> Work </li>
-            <li> Contact Me </li>
+            <li><a href="Work"></a> Work </li>
+            <li><a href="Contact Me"></a> Contact Me </li>
         </ul>
+
     </header>
 
+    <!-- simple intro of me -->
     <div class="aboutme">
-        <h2> About Me</h2>
+        <h2>About Me</h2>
         <p>
             I have recently started a 6 month full stack coding program through the University of Kansas. I have
             completed an Associates Degree through Johnson County Community College at the end of the second
             semester of 2022.
         </p>
+
     </div>
 
-    <div class="container" id="myprojects">
-        <div class="row">
-            <div class="col-3">
-                <h2>My Projects</h2>
-            </div>
+    <!-- start of projects area, where work will be shown -->
+    <h2><a id="Projects">Projects</a></h2>
 
+    <div class="projects">
 
-            <div class="col-9">
-                <div class="row">
-                    <!-- Techly -->
-                    <div class="row row-cols-1 row-cols-md-3">
-
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body black">
-                                    <a href=""><img
-                                            src="http://code-institute-org.github.io/Full-Stack-Web-Developer-Stream-0/assets/javascript.png"
-                                            alt="CSS Image" style="width: 25rem;"></a>
-                                    <h3>JavaScript</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body black">
-                                    <a href=""><img
-                                            src="http://code-institute-org.github.io/Full-Stack-Web-Developer-Stream-0/assets/javascript.png"
-                                            alt="CSS Image" style="width: 25rem;"></a>
-                                    <h3>JavaScript</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body black">
-                                    <a href=""><img
-                                            src="http://code-institute-org.github.io/Full-Stack-Web-Developer-Stream-0/assets/javascript.png"
-                                            alt="CSS Image" style="width: 25rem;"></a>
-                                    <h3>JavaScript</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body black">
-                                    <a href=""><img
-                                            src="http://code-institute-org.github.io/Full-Stack-Web-Developer-Stream-0/assets/javascript.png"
-                                            alt="CSS Image" style="width: 25rem;"></a>
-                                    <h3>JavaScript</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card">
-                    <div class="card-body black">
-                        <a href=""><img
-                                src="http://code-institute-org.github.io/Full-Stack-Web-Developer-Stream-0/assets/javascript.png"
-                                alt="CSS Image" style="width: 25rem;"></a>
-                        <h3>JavaScript</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-
-    <!-- <div class="work">
-        <h2 class="h2">Work</h2>
-        <section class="flexitem">
+        <section class="card">
             <img src="http://code-institute-org.github.io/Full-Stack-Web-Developer-Stream-0/assets/javascript.png"
-                alt="JavaScript Image" style="width: 25rem;">
-            <h3>JavaScript</h3>
+                alt="JavaScript" style="width: 100%; height: 200px;">
+            <div class="container">
+                <h2><a href="nothing yet">JavaScript</a></h2>
+            </div>
         </section>
-        <section class="flexitem">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-                alt="CSS Image" style="width: 25rem;">
-            <h3>CSS</h3>
-        </section>
-        <section class="flexitem">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
-                alt="HTML Image" style="width: 25rem;">
-            <h3>HTML</h3>
-        </section>
-        <section class="flexitem">
-            <img src="https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg"
-                alt="Code Image" style="width: 25rem;">
-            <h3>Code</h3>
-        </section>
-        <section class="flexitem">
-            <img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg"
-                alt="Computer Image" style="width: 25rem;">
-            <h3>Computer</h3>
-        </section>
-    </div> -->
 
+        <section class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                alt="CSS" style="width: 100%; height: 200px;">
+            <div class="container">
+                <h2><a href="nothing yet">CSS</a></h2>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+                alt="HTML" style="width: 100%; height: 200px;">
+            <div class="container">
+                <h2><a href="nothing yet">HTML</a></h2>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg"
+                alt="Code" style="width: 100%;" height="200px">
+            <div class="container">
+                <h2><a href="nothing yet">Code</a></h2>
+            </div>
+        </section>
+
+        <section class="card">
+            <img src="https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg"
+                alt="Computer" style="width: 100%; height: 200px;">
+            <div class="container">
+                <h2><a href="nothing yet">Computer</a></h2>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- all the contact info of page -->
     <footer>
+
         <h2> Contact Me</h2>
         <a href="tel: 9139916384"> Phone Number</a>
         <a href="mailto: bycarlson23@gmail.com"> Email Me</a>
         <a href="https://github.com/">GitHub</a>
+
     </footer>
+
 </body>
 
 </html>

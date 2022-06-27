@@ -7,10 +7,7 @@
 
 body {
     background-image: url(https://img.freepik.com/free-photo/black-rectangular-mockups-dark-concrete-background-design-elements-portfolio-copy-space_76255-1502.jpg);
-    /* background-position-x: center;
-    background-position-y: center; */
     height: max-content;
-
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -23,18 +20,16 @@ body {
     padding: 20px;
     margin-bottom: 30px;
     color: antiquewhite;
-    /* border: 1px solid yellow; */
-    align-items: flex-end;
 }
 
 /* shows name */
 .header h1 {
     display: inline-block;
     font-size: 55px;
-    height: 50px;
     padding-left: 25px;
     padding-top: 5px;
-    /* border: 1px solid red; */
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 /* this edits the ul list in the header */
@@ -42,16 +37,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* border: 1px solid red; */
-    height: 30px;
-    width: 300px;
+    width: 325px;
     float: right;
     padding-top: 30px;
-    margin-right: 0px;
     font-size: 25px;
     text-decoration: underline;
     list-style: none;
     cursor: pointer;
+    text-decoration-color: black;
 }
 
 header ul:hover {
@@ -62,120 +55,92 @@ header ul:active {
     color: black;
 }
 
-.header div ul li {
-
-    /* display: inline-block;
-    margin-left: 25px;
-    text-decoration: underline; */
-}
 
 /* about me section */
 .aboutme {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 15px;
-    height: 125px;
     margin-bottom: 10px;
-    border: 1px solid red;
 }
 
 /* "about me" */
 .aboutme h2 {
-    height: 75px;
-    width: 150px;
     font-size: 30px;
-    padding-top: 50px;
-    text-align: center;
+    padding-top: 40px;
+    padding-left: 70px;
+    text-align: left;
     color: antiquewhite;
-    border-right: 5px solid black;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 .aboutme p {
     font-size: 20px;
-    width: 50%;
+    width: 65%;
     text-align: center;
     color: antiquewhite;
-    /* border: 1px solid yellow; */
     padding-top: 15px;
+    padding-right: 15px;
 }
 
-/* work section */
-.work {
-    border: 1px solid yellow;
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    gap: 10px; */
+/* edits the h2 element "Projects" */
+#Projects {
+    color: antiquewhite;
+    width: 90px;
+    font-size: 30px;
+    padding-left: 100px;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+/* sets up how the images will be aligned */
+.projects {
+    flex: 1;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.work h2 {
-    height: 40px;
-    width: 150px;
-    font-size: 30px;
-    margin-right: 875px;
-    color: antiquewhite;
-    border: 1px solid red;
-    text-align: center;
-}
-
-.flexitemlarge {
-
-    /* display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: stretch;
-    align-content: ; */
-    border: 1px solid red;
-    /* flex: 2 1 25%; */
+    justify-content: center;
 }
 
-.flexitemlarge img {
-    flex: 2 1 25%;
-}
-
-.flexitem {
-    /*display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    align-content: center;
-    flex: 1 1 50%; */
-    flex: 1 1 33.33%;
-
-}
-
-.flexitem img {
+/* this is the section the image will be placed in */
+.card {
+    width: 250px;
     height: 200px;
-    width: 200px;
-
+    padding: 10px;
+    background-color: ;
+    margin: 30px;
 }
 
-.h2 {
-    text-align: left;
+/* the text box for the word describing the image/project */
+.container {
+    padding: 2px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: none;
+    border-style: groove;
+    text-align: center;
+    font-size: 15px;
 }
+
 
 footer {
     text-align: center;
     height: 3.5rem;
     background-image: linear-gradient(to top, black, grey);
-    /* position: fixed; */
     width: 100%;
     bottom: 0;
     letter-spacing: 1px;
-    border: 1px solid yellow;
 }
 
 footer h2 {
     text-align: left;
     color: antiquewhite;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 @media screen and (max-width: 1024px) {}
